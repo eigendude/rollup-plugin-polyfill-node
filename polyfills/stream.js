@@ -1,9 +1,9 @@
 import EE from 'events';
 import {inherits} from 'util';
 
-import {Duplex} from '\0polyfill-node._stream_duplex';
 import {Readable} from '\0polyfill-node._stream_readable';
 import {Writable} from '\0polyfill-node._stream_writable';
+import {Duplex} from '\0polyfill-node._stream_duplex';
 import {Transform} from '\0polyfill-node._stream_transform';
 import {PassThrough} from '\0polyfill-node._stream_passthrough';
 inherits(Stream, EE);
